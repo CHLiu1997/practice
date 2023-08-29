@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>高雄旅遊景點</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <section class="header">
+      <h1 class="title">高雄旅遊資訊</h1>
+      <select name="district-selector" class="selector"></select>
+      <div class="district-popular">
+        <span class="popular-text">熱門行政區</span>
+        <ul class="popular-list">
+          <li>
+            <a href="#" class="Zuoying popular-btn" data-zone = "左營區">左營區</a>
+          </li>
+          <li>
+            <a href="#" class="Yancheng popular-btn" data-zone = "岡山區">岡山區</a>
+          </li>
+          <li>
+            <a href="#" class="Sanmin popular-btn" data-zone = "三民區">三民區</a>
+          </li>
+          <li>
+            <a href="#" class="Gushan popular-btn" data-zone = "鼓山區">鼓山區</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="content">
+      <h2 class="district-title">全部行政區</h2>
+      <ul class="district-list">
+      </ul>
+    </section>
+    <section>
+      <ul class="page-list"></ul>
+    </section>
+    <section class="footer">
+      <div><img src="./img/btn_goTop.png" alt="" class="go-top"></div>
+      <span class="footer-text">高雄旅遊網</span>
+      <span class="footer-text2">資料來源：高雄市政府</span>
+    </section>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,258 @@
+/* header part */
+body {
+  width: 1024px;
+  margin: 0 auto;
+}
+.header {
+  height: 380px;
+  width: 100%;
+  background-image: url(../img/Hero.png);
+  background-size: cover;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  font-size: 40px;
+  color: #ffffff;
+  letter-spacing: 3.89px;
+  right: 50%;
+  top: 30%;
+  transform: translateX(50%);
+}
+
+.selector {
+  position: absolute;
+  height: 48px;
+  width: 452px;
+  font-size: 18px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  border: 3px solid #ffffff;
+  border-radius: 3px;
+  right: 50%;
+  top: 60%;
+  transform: translateX(50%);
+}
+
+.district-popular {
+  position: absolute;
+  height: 112px;
+  width: 800px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  right: 50%;
+  bottom: -20%;
+  transform: translateX(50%);
+}
+
+.popular-text {
+  position: absolute;
+  font-size: 18px;
+  padding: 20px 0 0 26px;
+}
+
+.popular-list {
+  position: absolute;
+  display: flex;
+  right: 50%;
+  bottom: 20%;
+  transform: translateX(50%);
+}
+
+.popular-btn {
+  display: block;
+  width: 130px;
+  padding: 11px 0;
+  margin: 0 15px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.Zuoying {
+  background-color: #8a82cc;
+}
+
+.Yancheng {
+  background-color: #ffa782;
+}
+
+.Sanmin {
+  background-color: #f5d005;
+}
+
+.Gushan {
+  background-color: #559ac8;
+}
+/* content part */
+.content {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding-top: 130px;
+}
+
+.district-title {
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 24px;
+  color: #8a82cc;
+}
+
+.district-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 35px;
+}
+
+.attraction {
+  position: relative;
+  width: 460px;
+  margin: 0 8px 36px 8px;
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.attraction-picture {
+  display: block;
+  height: 155px;
+  width: 100%;
+  padding-bottom: 15px;
+  object-fit: cover;
+}
+
+.attraction-text {
+  display: inline-flex;
+  width: 95%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+.attraction-icon {
+  display: inline-block;
+  width: 16px;
+  height: 20px;
+  object-fit: contain;
+  object-position: center center;
+  padding-right: 10px;
+}
+
+.attraction-name {
+  position: absolute;
+  left: 15px;
+  top: 125px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.attraction-zone {
+  position: absolute;
+  right: 15px;
+  top: 130px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* page-list part*/
+.page-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+}
+
+.page-btn {
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: #559ac8;
+  background-color: #ffffff;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-top: 1.5px solid #cbcbcb;
+  border-left: 1.5px solid #cbcbcb;
+  border-bottom: 1.5px solid #cbcbcb;
+}
+
+.prev {
+  padding: 0 5px;
+  width: 40px;
+  border-radius: 10% 0 0 10%;
+}
+
+.next {
+  padding: 0 5px;
+  width: 40px;
+  border-right: 1.5px solid #cbcbcb;
+  border-radius: 0 10% 10% 0;
+}
+
+.page-btn:hover {
+  font-size: 18px;
+}
+
+.current {
+  color: #ffffff;
+  background-color: #559ac8;
+}
+
+.disabled {
+  display: block;
+  user-select: none;
+  height: 30px;
+  color: #cbcbcb;
+  background-color: #ffffff;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-top: 1.5px solid #cbcbcb;
+  border-left: 1.5px solid #cbcbcb;
+  border-bottom: 1.5px solid #cbcbcb;
+}
+/* footer part */
+.go-top{
+  position:fixed;
+  height: 24px;
+  width: 24px;
+  right: 10%;
+  bottom: 15%;
+}
+
+.go-top:hover{
+  cursor: pointer;
+  box-shadow: 0 0 5px #559AC8;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #559ac8;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-text2 {
+  font-size: 14px;
+  line-height: 2em;
+  text-align: center;
+  color: #ffd366;
+}
